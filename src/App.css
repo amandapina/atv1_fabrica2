@@ -1,0 +1,58 @@
+.App {
+
+        width: 100%;
+        margin: 0 auto;
+        min-height: 100vh;
+    
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+        padding: 15px;
+        background-color: #111;
+        color: aliceblue;
+        font-size: 30px;
+    
+        position: relative;
+        border-bottom: 2px solid #adadad;
+    
+
+}
+
+
+.cartao {
+  display: flex;
+  width: 300px;
+  height: 100px;
+ vertical-align: auto;
+ border-radius: 20px;
+  padding: 100px;
+  text-align: center;
+  font-size: large;
+  padding: 77px  70px;
+  justify-content: center;
+  
+}
+
+.cartao img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+.App h1{
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+
+ 
+}
+
+.quadro {
+    border: 3px solid #adadad;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    background-color: #adadad;
+}
